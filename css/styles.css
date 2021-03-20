@@ -1,0 +1,186 @@
+body{
+    font-family: "Montserrat",sans-serif;
+}
+
+#title{                                     /*Id title */
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2em;
+    line-height: 1.5;
+    color: white;        /*One way or change in title*/
+}
+
+h2{
+    font-size: 3rem;
+    font-family: 'Montserrat-Bold', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Montserrat-Bold', sans-serif;
+    
+}
+
+p{
+    color: grey;
+}
+.container-fluid{
+    padding-top: 3%;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/*Navigation-Bar*/
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+
+/*Download Buttons*/
+
+.download-button{
+    margin-top: 3.5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+/*Title Image*/
+.title-img{
+    width: 55%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+
+}
+
+
+/*Features Section*/
+
+#features{
+    padding: 125px 225px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.features-data{
+    text-align: center;
+    padding: 0 40px;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4568;
+}
+
+
+/*Testimonials Section*/
+
+#testimonials{
+    text-align: center;
+    color: white;
+    background-color: #ef8172;
+}
+
+.testimonials-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-image{
+    width: 200px;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.pricing-columns {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+}
+
+@media (max-width:1153px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Footer section */
+#cta{
+    text-align: center;
+    background-color: #ff4568;
+    padding: 5% 10%;
+    padding-bottom: 8%;
+}
+
+.cta-last{
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 3% 2%;
+
+}
+
+.download-button{
+    margin-top: 1.5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: 3rem;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    color: grey;
+}
